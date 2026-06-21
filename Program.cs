@@ -11,7 +11,13 @@ app.MapGet("/games", () => games);
 
 const string EndpointName = "GetGameById";
 
-app.MapGet("/games/{id}", (int id) => games.Find(game => game.Id == id)).WithName(EndpointName);
+app.MapGet("/games/{id}", (int id) =>
+{
+    var game = games.Find(game => game.Id == id);
+
+    return game is not null ? Results.Ok(game) : Results.NotFound();
+
+}).WithName(EndpointName);
 
 app.MapPost("/games", (CreateGameDto newGame) =>
 {
