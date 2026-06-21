@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2GNyFx8pwA=",
+  "success": true,
+  "projectFilePath": "D:\\projects\\personalProjects\\GameStore\\GameStore.Api\\GameStore.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elkin\\.nuget\\packages\\microsoft.netcore.app.ref\\10.0.8\\microsoft.netcore.app.ref.10.0.8.nupkg.sha512",
+    "C:\\Users\\elkin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\10.0.8\\microsoft.windowsdesktop.app.ref.10.0.8.nupkg.sha512",
+    "C:\\Users\\elkin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\10.0.8\\microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512",
+    "C:\\Users\\elkin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\10.0.8\\microsoft.netcore.app.host.win-x64.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
